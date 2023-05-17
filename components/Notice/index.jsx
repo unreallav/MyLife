@@ -24,10 +24,10 @@ const Notice = () => {
                 <p style={{
                     color: '#666',
                     marginBottom: '10px'
-                }}>没有人能像一张白纸一样没有故事 成长的代价就是失去原来的样子</p>
+                }}>Go Ahead</p>
                
                
-                <p>来源北北 开源地址:<a
+                <p>本程序来源北北 开源地址:<a
                     href={"https://github.com/wxtsky/MyWalletScan"}>https://github.com/wxtsky/MyWalletScan</a>
                 </p>
             </Modal>
