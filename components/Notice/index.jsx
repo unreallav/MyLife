@@ -16,11 +16,11 @@ const Notice = () => {
                 style={{fontFamily: 'Arial, sans-serif', top: 20}}
                 okText={"知道了"}
             >
-                <h2 style={{color: '#333', marginBottom: '15px'}}>Hello,大家好，我是开发者北北</h2>
+                <h2 style={{color: '#333', marginBottom: '15px'}}>Hello,本程序源自北北</h2>
                 <p style={{
                     color: '#666',
                     marginBottom: '10px'
-                }}>开发这款工具的初衷是为了方便大家查看自己的钱包信息，一直秉持着免费开源的原则，希望大家喜欢。</p>
+                }}>没有人能像一张白纸一样没有故事 成长的代价就是失去原来的样子。</p>
                 <p style={{
                     color: '#666',
                     marginBottom: '10px'
@@ -38,16 +38,7 @@ const Notice = () => {
                         迁移以后，能够更快的访问网页，不会出现卡顿或者打不开网页的情况。
                     </li>
                 </ul>
-                <p style={{color: '#666', marginBottom: '10px'}}>迁移注意事项</p>
-                <ul>
-                    <li style={{color: '#666', marginBottom: '10px'}}>1.
-                        迁移到新网站以后，原网站将逐渐关闭（一周左右），您可以将数据迁移到新的网站。
-                    </li>
-                    <li style={{color: '#666', marginBottom: '10px'}}>2.
-                        新的网站域名将永远不会改变，您以后可以放心使用。纯前端页面，不会收集任何信息。
-                    </li>
-                </ul>
-                <p>新的网站链接：<a href={"https://bitboxtools.github.io"}>https://bitboxtools.github.io</a></p>
+               
                 <p>开源地址链接：<a
                     href={"https://github.com/wxtsky/MyWalletScan"}>https://github.com/wxtsky/MyWalletScan</a>
                 </p>
