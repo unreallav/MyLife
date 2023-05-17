@@ -9,25 +9,25 @@ const Notice = () => {
     return (
         <div>
             <Modal
-                title="注意事项"
+                title="珍惜每一个大毛"
                 open={modalIsOpen}
                 onOk={() => setModalIsOpen(false)}
                 onCancel={() => setModalIsOpen(false)}
                 style={{fontFamily: 'Arial, sans-serif', top: 20}}
                 okText={"知道了"}
             >
-                <h2 style={{color: '#333', marginBottom: '15px'}}>Hello,</h2>
+                <h2 style={{color: '#333', marginBottom: '15px'}}>风浪越大，毛越贵！</h2>
+                <p style={{
+                    color: '#666',
+                    marginBottom: '10px'
+                }}>《早知道》《要是》《如果》《太贵了》《真服了》《大腿拍烂》《卧槽》</p>
                 <p style={{
                     color: '#666',
                     marginBottom: '10px'
                 }}>没有人能像一张白纸一样没有故事 成长的代价就是失去原来的样子</p>
-                <p style={{
-                    color: '#666',
-                    marginBottom: '10px'
-                }}>         GAS越大 鱼越贵!          </p>
                
                
-                <p>本程序源自北北 开源地址:<a
+                <p>来源北北 开源地址:<a
                     href={"https://github.com/wxtsky/MyWalletScan"}>https://github.com/wxtsky/MyWalletScan</a>
                 </p>
             </Modal>
